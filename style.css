@@ -1,1 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/*newspaper container*/
+* {
+    margin: auto;
+}
+
+.newspaper-container {
+    width: 700px;
+    padding: 1em;
+    box-shadow: 1px 1px 5px #ddd;
+    border-radius: 10px;
+    margin: 3 em auto;
+    box-sizing: border-box;
+    background: white;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+p {
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+h1 {
+    text-align: center;
+    font-family: Roboto Slab;
+
+}
+
+main h2 {
+    font-family: Source Sans Pro;
+    font-size: 30px;
+}
+
+a: link
+
+/*navigation*/
+nav a {
+    color: #777;
+    font-size: 0.8em;
+
+}
+
+nav {
+    border-top: 1px solid #eee;
+    border-color: #eee;
+    border-bottom: 1px solid #eee;
+    border-color: #eee;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin: 1em 0;
+    padding: 5px 0;
+}
+
+.div {
+    margin-left: 0px;
+    border-top: ;
+    border-bottom: ;
+}
+
+nav ul {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 0 0.5em;
+}
+
+.img1 {
+    width: 700px;
+    height: auto;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        width: 40%;
+        display: inline-block;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-top: 30px; 
+        border-top: solid;
+        border-color: #eee;
+        border-bottom: solid;
+        border-color: #eee;
+    }
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+/*front page article*/
+.more-articles {
+    display: inline-block;
+    width: 44%;
+    margin: 0 1em;
+}
