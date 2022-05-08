@@ -43,8 +43,6 @@ main h2 {
     font-size: 30px;
 }
 
-a: link
-
 /*navigation*/
 nav a {
     color: #777;
@@ -66,8 +64,8 @@ nav {
 
 .div {
     margin-left: 0px;
-    border-top: ;
-    border-bottom: ;
+    /* border-top:  */
+    /* border-bottom:  */
 }
 
 nav ul {
@@ -87,8 +85,9 @@ nav li {
 .img1 {
     width: 700px;
     height: auto;
+}
 
-    img {
+img {
         max-width: 100%;
         height: auto;
     }
@@ -106,7 +105,6 @@ nav li {
         border-color: #eee;
     }
 
-}
 
 a:link {
     text-decoration: none;
